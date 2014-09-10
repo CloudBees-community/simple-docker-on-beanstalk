@@ -1,3 +1,9 @@
-Example simple python web server for beanstalk
+# Example simple python web server for beanstalk
 
-zip this up - and deploy it as is. 
+To prepare this for beanstalk: 
+
+```
+cd app
+zip -r ../Beanstalk.zip . 
+```
+
