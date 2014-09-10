@@ -7,3 +7,12 @@ cd app
 zip -r ../Beanstalk.zip . 
 ```
 
+The freestyle build script should look like: 
+```
+rm -rf Beanstalk.zip
+cd app
+zip -r ../Beanstalk.zip . 
+```
+
+
+
